@@ -27,7 +27,4 @@ public class Dog {
     @Column
     private int weight;
 
-    @Enumerated(value = EnumType.STRING)
-    @Column
-    private Gender gender;
 }
